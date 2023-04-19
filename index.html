@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridge</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/umi.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="top-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container box-shadow">
+                    <a class="navbar-brand MuiBox-root css-1yxbty" href="/">
+                      <img src="assets/images/dogechain.png" height="50" alt="Logo">
+                      <img src="assets/images/title.png" height="21" alt="doge chain">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary active" aria-current="page" href="index.html">Bridge</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary" href="account.html">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="airdrop.html" class="btn btn-outline-primary">Airdrops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary css-1ql6kts" href="locker.html">🔥POS
+                                <div class="MuiBox-root css-med3kq"><p class="MuiTypography-root MuiTypography-body1 css-1t6zy4y">NEW</p></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-primary connect-wallet" type="submit"> Connect Wallet</button>
+                    </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main-content pb-5">
+            <section class="hero-two-slider-area pt-30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 bridge-box___R3Jym">
+                            <div class="row">
+                                <div class="col heading-title">
+                                    <h1>
+                                        Bridge
+                                    </h1>
+                                </div>
+                                <div class="col heading-title text-end">
+                                    <h6 class="MuiTypography-root MuiTypography-subtitle1 css-1l2ys5m">Current DOGE on Chain</h6>
+                                    <h3 class="MuiTypography-root MuiTypography-h3 css-9vbocm">loading</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="card content___1eum-">
+                                    <div class="card-body">
+                                        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                                            <span class="tabs___CyhWy css-j9byi2">
+                                              <li class="nav-item" role="presentation">
+                                                <button class="nav-link css-88mip5 btn btn-warning active" id="pills-deposit-tab" data-bs-toggle="pill" data-bs-target="#pills-deposit" type="button" role="tab" aria-controls="pills-deposit" aria-selected="true">Deposit</button>
+                                              </li>
+                                              <li class="nav-item" role="presentation">
+                                                <button class="nav-link css-88mip5 btn btn-warning" id="pills-withdraw-tab" data-bs-toggle="pill" data-bs-target="#pills-withdraw" type="button" role="tab" aria-controls="pills-withdraw" aria-selected="false">Withdraw</button>
+                                              </li>
+                                            </span>
+                                        </ul>
+                                        <div class="tab-content" id="pills-tabContent">
+                                          <div class="tab-pane fade show active" id="pills-deposit" role="tabpanel" aria-labelledby="pills-deposit-tab" tabindex="0">
+                                                <div class="tab-body___34Ogn">
+                                                    <div>
+                                                        <label class="MuiTypography-root MuiTypography-subtitle2 css-1xnmdgu">Route</label>
+                                                        <div class="line-label___cF6x9 css-1xhj18k">
+                                                            <div>
+                                                                <img src="assets/images/doge@3x.png" alt="" width="24">
+                                                                <span>Dogecoin</span>
+                                                            </div>
+                                                            <div class="line-tag___14iHs">From</div>
+                                                        </div>
+                                                        <div class="line-label___cF6x9 css-1xhj18k">
+                                                            <div>
+                                                                <img src="assets/images/dogechain.png" alt="" width="24">
+                                                                <span>Dogechain</span>
+                                                            </div>
+                                                            <div class="line-tag___14iHs">To</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="deposit-confrim___2VynG">
+                                                        <label class="MuiTypography-root MuiTypography-subtitle2 css-1xnmdgu">Dogecoin Deposit Address</label>
+                                                        <div class="MuiGrid-root MuiGrid-container css-1o16k6s">
+                                                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8 css-1gdk3li">Reveal address to send Dogecoin to</div>
+                                                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-ok4be4">
+                                                                <div class="MuiBox-root css-xi606m">
+                                                                    <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-1pwuv4b" tabindex="0" type="button">Connect Wallet<span class="MuiTouchRipple-root css-w0pj6f"></span></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p class="MuiTypography-root MuiTypography-body1 css-11g9m1z">Please deposit at least 100 $Dogecoin. Any deposit lower than 100 $Dogecoin will be lost.</p>
+                                                        <p class="MuiTypography-root MuiTypography-body2 css-1wh0v6x">
+                                                            <a data-underline="true" href="/account">Check My Account Transaction Status&nbsp;<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACgSURBVHgB7dfhDYJADIbh74yDOAqb6CaWTRzFUdykthGjJBBI6SX98T3JhfsFL1zCAUBEROlU9e4DFU1xX4cjT8jX/uZS8klalOgcI0MYmYWRWSKR5x0nHewwIM/LxmWaezBaayOiFu66h9va9XvsJKk2l9g8keuK3xK70Zb4gQp0/iHhBFUwLopxUYyLyo7r/U/iL2FBNfrZvwVERHTYG6Kfr0BLuIlWAAAAAElFTkSuQmCC" width="20" alt="arrow"></a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                          </div>
+                                          <div class="tab-pane fade" id="pills-withdraw" role="tabpanel" aria-labelledby="pills-withdraw-tab" tabindex="0">
+                                              <div class="tab-body___34Ogn">
+                                                <label class="MuiTypography-root MuiTypography-subtitle2 css-1xnmdgu">Route</label>
+                                                <div class="line-label___cF6x9 css-1xhj18k">
+                                                    <div>
+                                                        <img src="assets/images/dogechain.png" alt="" width="24">
+                                                        <span>Dogechain</span>
+                                                    </div>
+                                                    <div class="line-tag___14iHs">From</div>
+                                                </div>
+                                                <div class="line-label___cF6x9 css-1xhj18k">
+                                                    <div>
+                                                        <img src="assets/images/doge@3x.png" alt="" width="24">
+                                                        <span>Dogecoin</span>
+                                                    </div>
+                                                    <div class="line-tag___14iHs">To</div>
+                                                </div>
+                                                <div class="css-1jpwfib">
+                                                    <label class="MuiTypography-root MuiTypography-subtitle2 css-1xnmdgu">Amount</label>
+                                                    <label class="MuiTypography-root MuiTypography-subtitle2 css-1xnmdgu">Available: -&nbsp;DOGE</label>
+                                                </div>
+                                                <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-adornedEnd input-box___1cjEj undefined css-1uuk5q7">
+                                                    <input type="text" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-1sjjz1z" value="0" spellcheck="false" data-ms-editor="true">
+                                                    <div class="suffix___JqbLO">
+                                                        <p class="MuiTypography-root MuiTypography-body2 css-1lcbwqx">&nbsp;&nbsp;DOGE</p>
+                                                        <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-disableElevation css-1uo2vpk" tabindex="0" type="button">Max<span class="MuiTouchRipple-root css-w0pj6f"></span></button>
+                                                    </div>
+                                                    <fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-nqlg3w">
+                                                        <legend class="css-ihdtdm">
+                                                            <span class="notranslate">&ZeroWidthSpace;</span>
+                                                        </legend>
+                                                    </fieldset>
+                                                </div>
+                                                <p class="MuiTypography-root MuiTypography-body2 css-pyk2q7">You will receive: 0&nbsp;
+                                                    <span>
+                                                        <img src="assets/images/doge@3x.png" width="24" alt="Dogecoin">&nbsp;DOGE
+                                                    </span>
+                                                </p>
+                                                <label class="MuiTypography-root MuiTypography-subtitle2 css-1afqjgi">Recipient Address</label>
+                                                <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth input-box___1cjEj undefined css-1aoezgt">
+                                                    <input placeholder="Enter Dogecoin's Recipient Address" type="text" class="MuiInputBase-input MuiOutlinedInput-input css-gvq0ny" value="" spellcheck="false" data-ms-editor="true">
+                                                    <fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-nqlg3w">
+                                                        <legend class="css-ihdtdm">
+                                                            <span class="notranslate">&ZeroWidthSpace;</span>
+                                                        </legend>
+                                                    </fieldset>
+                                                </div>
+                                                <div class="MuiBox-root css-xi606m">
+                                                    <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-z5e92a" tabindex="0" type="button">Connect Wallet<span class="MuiTouchRipple-root css-w0pj6f"></span></button>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <div id="deposit_94kI" class="details-box___2O4Pz MuiBox-root css-1hx4fhb">
+                                <h2 class="MuiTypography-root MuiTypography-h2 css-1pxzq5p">Details</h2>
+                                <ul class="list-item___baA3d">
+                                    <li>
+                                        <label>Recipient Address</label>
+                                        <span>-</span>
+                                    </li>
+                                    <li>
+                                        <label></label>
+                                        <span><img src="assets/images/dogechain.png" width="20" alt="DC">&nbsp; Dogechain Network</span>
+                                    </li>
+                                    <li>
+                                        <label>Minimum Amount</label>
+                                        <span>100.0 Dogecoin</span>
+                                    </li>
+                                </ul>
+                                <div class="deposit-warning___y94kI MuiBox-root css-1hoedrh">
+                                    <div class="MuiGrid-root MuiGrid-container css-v3z1wi">
+                                        <div class="MuiGrid-root MuiGrid-item css-koo75d">
+                                            <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation css-16g99tr" tabindex="0" type="button">Warning<span class="MuiTouchRipple-root css-w0pj6f"></span></button>&nbsp;<button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textBody1 MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation MuiButton-root MuiButton-text MuiButton-textBody1 MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation css-1bd99r0" tabindex="0" type="button">How it works?<span class="MuiTouchRipple-root css-w0pj6f"></span></button>
+                                        </div>
+                                        <div class="MuiGrid-root MuiGrid-item css-1wxaqej">
+                                            <a href="https://discord.com/invite/e9TQwwmF79" target="_blank" data-underline="true" rel="noreferrer">Discord&nbsp;<svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#fff" style="vertical-align: text-bottom;"><path d="M15 10.5V15a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h4.5M7 12.5L16 4M11.765 4H16v4" stroke-width="1.5"></path></svg></a>
+                                        </div>
+                                    </div>
+                                    <ul>
+                                        <li>Depositing any other asset than $Dogecoin to the Dogecoin address will result in a loss of funds. Never deposit any other asset than $Dogecoin through the bridge.</li>
+                                        <li>Deposits require 6 block confirmations of Dogecoin chain to be considered valid.</li>
+                                        <li>Once the platform's wallet has received your funds, the smart contract will mint the corresponding number of $DOGE and send them to your Dogechain address.</li>
+                                        <li>Ensure you are depositing at least 100.0 $Dogecoin to the bridge. A smaller amount will result in the smart contract not triggering the minting process and failing to send you the required $DOGE.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                              
+                            <div id="withdraw_94kI" class="details-box___2O4Pz MuiBox-root css-1hx4fhb">
+                                <h2 class="MuiTypography-root MuiTypography-h2 css-1pxzq5p">Details</h2>
+                                <ul class="list-item___baA3d">
+                                    <li><label>Fees</label><span>0.1%</span></li>
+                                    <li><label>Minimum Amount</label><span>- DOGE</span></li>
+                                </ul>
+                                <div class="withdraw-warning___sWHjs MuiBox-root css-1hoedrh">
+                                    <div class="MuiBox-root css-0">
+                                        <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation css-16g99tr" tabindex="0" type="button">Warning<span class="MuiTouchRipple-root css-w0pj6f"></span></button>&nbsp;<button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textBody1 MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation MuiButton-root MuiButton-text MuiButton-textBody1 MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation css-1bd99r0" tabindex="0" type="button">How it works?<span class="MuiTouchRipple-root css-w0pj6f"></span></button>
+                                    </div>
+                                    <ul>
+                                        <li>Only provide a Dogecoin mainnet address for the withdrawal of funds. Any other address type will result in the loss of your $Dogecoin.</li>
+                                        <li>The protocol will send your $Dogecoin within 7 days following your withdrawal request.</li>
+                                        <li>Ensure you are withdrawing the minimum amount of - $Dogecoin to your wallet. A smaller amount will result in your request being denied.</li>
+                                        <li>The protocol requires a no-spam fee of <span>-%</span> upon each withdrawal.</li>
+                                    </ul>
+                                </div>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="hero-footer pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                            <div class="footer-logo">
+                                <img src="assets/images/dogechain.png" height="50" alt="Logo">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                            <div class="social-media">
+                                <ul class="nav justify-content-center me-auto">
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">
+                                        Home
+                                      </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">
+                                        Explorer
+                                      </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">
+                                        Faucet
+                                      </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">
+                                        Whitepaper
+                                      </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">
+                                        Docs
+                                      </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <div class="social-media">
+                                <ul class="nav justify-content-end me-auto">
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">
+                                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">
+                                        <i class="fa fa-reddit-alien" aria-hidden="true"></i>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link">
+                                        <i class="fa fa-medium" aria-hidden="true"></i>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                      </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#pills-deposit-tab").click(function(){
+            $("#deposit_94kI").show();
+            $("#withdraw_94kI").hide();
+          });
+          $("#pills-withdraw-tab").click(function(){
+            $("#deposit_94kI").hide();
+            $("#withdraw_94kI").show();
+          });
+        });
+    </script>
+</body>
+</html>
