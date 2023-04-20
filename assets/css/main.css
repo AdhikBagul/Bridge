@@ -31,7 +31,8 @@ body {
     overflow-x: hidden;
     overflow-x: hidden;
     color: #ffffff;
-    background-color: #000;
+/*    background-color: #000;*/
+    background-color: #000423;
 }
 .wrapper {
     overflow-x: hidden;
@@ -72,8 +73,10 @@ body {
     text-decoration: none;
     font-family: Inter-Regular;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    color: rgb(31, 34, 38);
-    background-color: rgb(124, 251, 92)!important;
+    /*color: rgb(31, 34, 38);
+    background-color: rgb(124, 251, 92)!important;*/
+    color: rgb(255 255 255);
+    background-color: #c000ff;
     box-shadow: none;
     text-transform: none;
     font-weight: 600;
@@ -84,11 +87,17 @@ body {
     min-width: 152px;
     height: 40px;
 }
-
+.details-box___2O4Pz {
+    min-height: 570px;
+    box-sizing: border-box;
+    padding-top: 35px;
+}
 .connect-wallet:hover {
     text-decoration: none;
-    color: #000000;
-    background-color: rgb(86, 175, 64)!important;
+    color: #ffffff;
+/*    color: #000000;*/
+    background-color: #9328b6;
+/*    background-color: rgb(86, 175, 64)!important;*/
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
 }
 .top-header nav ul li a:hover {
@@ -96,7 +105,8 @@ body {
     background-color: rgba(255, 255, 255, 0.08)!important;
 }
 .navbar-nav .btn.active, .navbar-nav .show>.btn {
-    color: rgb(251, 245, 92);
+    color: #0000ff;
+/*    color: rgb(251, 245, 92);*/
 }
 
 .navbar-toggler i{
@@ -112,7 +122,23 @@ body {
     height: 100%;
     padding: 10px 0;
 }
-
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table{
+    color: #fff;
+    text-align: center;
+}
+.table-hover>tbody>tr:hover>*{
+    background-color: #00000013;
+    color: #fff;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: #003953;
+    border-style: solid;
+    border-width: 0;
+}
 .social-media ul li a {
     color: #ffffff;
 }
@@ -123,7 +149,7 @@ body {
 
 .bridge-box___R3Jym .content___1eum- {
     min-height: 570px;
-    background: url(../images/box_big_bg.jpg) no-repeat 50%;
+    background: url(../images/box_big_bg.png) no-repeat 50%;
     background-size: cover;
     box-sizing: border-box;
     padding: 30px;
@@ -152,8 +178,10 @@ body {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: rgb(31, 34, 38);
-    background-color: rgb(251, 245, 92);
+    color: #fff;
+/*    color: rgb(31, 34, 38);*/
+/*    background-color: rgb(251, 245, 92);*/
+    background-color: #0000ff;
 }
 .bridge-box___R3Jym .tab-body___34Ogn {
     max-width: 600px;
@@ -223,6 +251,7 @@ body {
     flex-grow: 0;
     max-width: 100%;
     line-height: 24px;
+    color: #fff;
 }
 .css-ok4be4 {
     box-sizing: border-box;
@@ -256,8 +285,10 @@ body {
     appearance: none;
     text-decoration: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    color: rgb(31, 34, 38);
-    background-color: rgb(124, 251, 92);
+    /*color: rgb(31, 34, 38);
+    background-color: rgb(124, 251, 92);*/
+    color: rgb(255 255 255);
+    background-color: #c000ff;
     box-shadow: none;
     text-transform: none;
     font-weight: 600;
@@ -273,7 +304,8 @@ body {
 
 .css-1pwuv4b:hover {
     text-decoration: none;
-    background-color: rgb(86, 175, 64);
+    background-color: #9328b6;
+/*    background-color: rgb(86, 175, 64);*/
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
 }
 
@@ -319,6 +351,10 @@ body {
     display: block;
     line-height: 1;
     padding-bottom: 10px;
+    color: #fff;
+}
+.line-label___cF6x9{
+    color: #fff;
 }
 .css-1uuk5q7 {
     font-size: 17px;
@@ -455,6 +491,7 @@ body {
     display: block;
     line-height: 1;
     padding-bottom: 10px;
+    color: #fff;
 }
 .css-1aoezgt {
     font-size: 17px;
@@ -512,8 +549,10 @@ body {
     appearance: none;
     text-decoration: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    color: rgb(31, 34, 38);
-    background-color: rgb(124, 251, 92);
+    /*color: rgb(31, 34, 38);
+    background-color: rgb(124, 251, 92);*/
+    color: rgb(255 255 255);
+    background-color: #c000ff;
     box-shadow: none;
     text-transform: none;
     font-weight: 600;
@@ -597,7 +636,7 @@ input:focus {
     appearance: none;
     text-decoration: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    color: rgb(251, 245, 92);
+    color: #fff;
     box-shadow: none;
     text-transform: none;
     font-weight: 600;
@@ -652,11 +691,13 @@ ul.list-item___baA3d {
     padding: 20px;
     font-size: 14px;
     color: #fff;
-    background-color: #1f2226;
+/*    background-color: #1f2226;*/
+    background-color: #00004e;
     margin-top: 0;
+    border-radius: 4px;
 }
 .details-box___2O4Pz>h2 {
-    padding-bottom: 27px;
+    padding-bottom: 6px;
 }
 .css-vtn2l4 {
     padding-bottom: 20px;
@@ -697,8 +738,10 @@ ul.list-item___baA3d {
     appearance: none;
     text-decoration: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    color: rgb(31, 34, 38);
-    background-color: rgb(124, 251, 92);
+    /*color: rgb(31, 34, 38);
+    background-color: rgb(124, 251, 92);*/
+    color: rgb(255 255 255);
+    background-color: #c000ff;
     box-shadow: none;
     text-transform: none;
     font-weight: 600;
@@ -721,7 +764,8 @@ ul.list-item___baA3d {
 }
 .css-oxvay8:hover {
     text-decoration: none;
-    background-color: rgb(86, 175, 64);
+    background-color: #9328b6;
+/*    background-color: rgb(86, 175, 64);*/
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
 }
 .css-14vpdax {
@@ -902,7 +946,7 @@ ul.list-item___baA3d {
 .css-11654vp {
     margin: 0px;
     line-height: 1.5;
-    color: #000;
+    color: #fff;
     font-size: 16px;
     font-weight: 700;
 }
@@ -1077,14 +1121,15 @@ ul.list-item___baA3d {
 }
 .css-med3kq {
     border-radius: 2px;
-    background: #7cfb5c;
+    background: #c000ff;
+/*    background: #7cfb5c;*/
     padding: 4px;
     margin-left: 4px;
 }
 .css-1t6zy4y {
     margin: 0px;
     font-weight: 400;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     letter-spacing: 0.01em;
     line-height: 1;
     font-size: 12px;
@@ -1186,7 +1231,8 @@ ul.list-item___baA3d {
 .css-oxtelw {
     box-sizing: border-box;
     background-position: center bottom;
-    background-color: rgb(31, 34, 38);
+    background-color: #00004e;
+/*    background-color: rgb(31, 34, 38);*/
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 60px;
@@ -1405,6 +1451,16 @@ ul.list-item___baA3d {
     animation: 1.4s linear 0s infinite normal none running animation-61bdi0;
 }
 
+#dl-deposit{
+    display: none;
+}
+#dl-withdraw{
+    display: none;
+}
+
+.active{
+    color: rgb(251, 245, 92);
+}
 
 @media (min-width: 0px){
     .css-1el0sfy {
@@ -1443,7 +1499,7 @@ ul.list-item___baA3d {
         flex-grow: 0;
     }
     .css-fys6s3 {
-        background-image: url(../images/earlybird_bg_xs.png);
+        background-image: url(../images/earlybird_bg_xs-2.png);
     }
     .css-1ath33u {
         font-size: 16px;
@@ -1539,7 +1595,7 @@ ul.list-item___baA3d {
     }
     .css-oxtelw {
         width: fit-content;
-        background-image: url(../images/locker_bg_md.png);
+        background-image: url(../images/locker_bg_md-2.png);
         padding-left: 90px;
         padding-right: 90px;
     }
@@ -1551,7 +1607,7 @@ ul.list-item___baA3d {
         font-size: 20px;
     }
     .css-fys6s3 {
-        background-image: url(../images/earlybird_bg_md.png);
+        background-image: url(../images/earlybird_bg_md-2.png);
     }
     .css-1soagrl {
         -webkit-box-flex: 1;
@@ -1635,9 +1691,9 @@ ul.list-item___baA3d {
     .css-v27d19{
         margin-bottom: 20px;
     }
-    .MuiBox-root img:last-child{
+    /*.MuiBox-root img:last-child{
         display: none;
-    }
+    }*/
     .css-1788vb2{
         margin-top: 15px;
     }
