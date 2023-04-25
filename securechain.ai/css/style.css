@@ -208,6 +208,10 @@
         left: -19px;
         top: -1%;
     }
+    .text {
+        position: absolute;
+        left: -6%;
+    }
 }
 @media screen and (min-width: 1440px){
     /*.text {
