@@ -509,7 +509,8 @@ img {
 }
 
 .ms-section-header.ms-insight__card-header {
-  width: 52.1em;
+  width: 100%;
+/*  width: 52.1em;*/
 }
 
 .ms-section-header.about-page {
@@ -718,7 +719,7 @@ img {
 
 .ms-insight__card.ms-insight__card--summarized {
   position: relative;
-  min-height: 43em;
+  min-height: 33em;
   margin-top: -1.5em;
   padding-top: 5.5em;
   border-radius: 20px;

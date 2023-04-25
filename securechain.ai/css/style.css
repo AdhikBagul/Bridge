@@ -162,7 +162,44 @@
 .table thead, tbody tr th, td {
     color: white;
 }
+.list-group-flush>.list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.a1Blue i{
+    opacity: 1;
+    color: rgb(65 105 225);
+}
+.a1u {
+    border-radius: 9999px;
+}
+.a3V {
+    width: 1.5rem;
+}
+.a3U {
+    height: 1.5rem;
+}
+.a1p {
+    margin-right: 1rem;
+}
+.a1Pink {
+    opacity: 1;
+    color: rgb(249 81 146);
+}
 
+.a1Green {
+    opacity: 1;
+    color: green;
+}
+.a1Red {
+    opacity: 1;
+    color: red;
+}
+.a1Purple{
+    opacity: 1;
+    color: purple;
+}
 @media screen and (min-width: 1200px){
     .text-benefit-left {
         left: -19px;
