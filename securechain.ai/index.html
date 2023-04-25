@@ -107,10 +107,10 @@
             <div class="loader_inner" style="opacity: 1;">
                 <img src="img/logo/SClogoVTWhite.png" style="width: 200px;" loading="lazy" alt="" class="loader-__img" />
             </div>
-            <div class="loader__green-shadow"><img src="img/60d11b991238f9ae918ce3ca_Ellipse%2011.svg" loading="lazy" alt="shade" class="image-11" /></div>
-            <div class="loader__green-shadow loader__green-shadow--right"><img src="img/60d11b991238f931d08ce3cf_Ellipse-15.svg" loading="lazy" alt="shade" class="image-12" /></div>
-            <div class="loader__blue-shadow first"><img src="img/60d11b991238f987a18ce399_Ellipse%209%20(1).svg" loading="lazy" alt="shade" /></div>
-            <div class="loader__blue-shadow loader__blue-shadow--right"><img src="img/60d11b991238f9287d8ce3bb_Ellipse%2032%20(1).svg" loading="lazy" alt="shade" class="image-13" /></div>
+            <div class="loader__green-shadow"><img src="img/logo/SClogoVTWhite.png" loading="lazy" alt="shade" class="image-11" /></div>
+            <div class="loader__green-shadow loader__green-shadow--right"><img src="img/logo/SClogoVTWhite.png" loading="lazy" alt="shade" class="image-12" /></div>
+            <div class="loader__blue-shadow first"><img src="img/logo/SClogoVTWhite.png" loading="lazy" alt="shade" /></div>
+            <div class="loader__blue-shadow loader__blue-shadow--right"><img src="img/logo/SClogoVTWhite.png" loading="lazy" alt="shade" class="image-13" /></div>
         </div>
         <div class="page-wrapper">
             <div
@@ -130,9 +130,19 @@
                             <img src="img/logo/SClogoHZWhite.png" loading="lazy" alt="site logo" class="header-logo" />
                         </a>
                         <nav role="navigation" class="ms-header__nav-menu w-nav-menu">
-                            <div class="ms-mobile__menu">
-                                <a href="/about" class="ms-header__-nav-link w-nav-link">About</a><a href="#" class="ms-header__-nav-link w-nav-link">Features</a><a href="#Blog" class="ms-header__-nav-link w-nav-link">blog</a>
-                                <a href="/contact" class="ms-header__-nav-link last w-nav-link">Contact</a>
+                            <div class="ms-mobile__menu dropdown">
+                                <a href="/about" class="ms-header__-nav-link w-nav-link">About</a></li>
+                                <!-- <a href="#" class="ms-header__-nav-link w-nav-link">Features</a></li> -->
+                                  <a class="nav-link dropdown-toggle ms-header__-nav-link w-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Features
+                                  </a>
+                                  <ul class="dropdown-menu border-gradient border-gradient-purple">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  </ul>
+                                <a href="#Blog" class="ms-header__-nav-link w-nav-link">blog</a></li>
+                                <a href="/contact" class="ms-header__-nav-link last w-nav-link">Contact</a></li>
                             </div>
                             <div class="overlay"></div>
                         </nav>
@@ -149,16 +159,16 @@
 
                         <div class="ms-hero__inner" style="align-items: start;">
                             <div class="ms-hero__caption">
-                                <h1 class="ms-animated-text-wrapper ms-h1">
+                                <h1 class="ms-animated-text-wrapper ms-h1 font-size-3-5">
                                     <span
                                         data-w-id="fd668c5e-a101-ac47-572c-1200929ccb5b"
                                         style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
                                         class="ms-animted-text-inner"
                                     >
-                                        Unified patient intelligence
+                                        Welcome to the <br>future of Web3<br> powered by AI
                                     </span>
                                 </h1>
-                                <h2 class="ms-h5 ms-hero__subheading ms-animated-text-wrapper">
+                                <!-- <h2 class="ms-h5 ms-hero__subheading ms-animated-text-wrapper">
                                     <span
                                         data-w-id="6a27a32f-0d0d-75b9-a527-7d93b8c116a6"
                                         style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
@@ -166,15 +176,14 @@
                                     >
                                         Each patient's full medical history, summary and analysis in one comprehensive health record
                                     </span>
-                                </h2>
+                                </h2> -->
                                 <p class="ms-hero__para ms-animated-text-wrapper">
                                     <span
                                         data-w-id="8c95cc61-b82f-bd95-3897-da7db1558f7d"
                                         style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
                                         class="ms-animted-text-inner"
                                     >
-                                        MDPortals collects patients’ records from all sources of external clinical data, synthesizes the captured data into one composite health record, abstracts all HCC opportunities, and delivers them
-                                        directly into your EHR, all in a matter of hours.
+                                        SecureChain is an AI-powered blockchain platform having Intelligent Consensus<br> Engine (ICE) algorithm to empower next generation Dapps with security and speed.
                                     </span>
                                 </p>
                             </div>
@@ -189,7 +198,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="ms-hero__inner hide-767">
+                        <!-- <div class="ms-hero__inner hide-767">
                             <div class="ms-hero__caption" style="width: 100%;text-align: center;">
                                 <h1 class="ms-animated-text-wrapper ms-h1" style="width: 100%;text-align: center;">
                                     <span
@@ -201,7 +210,7 @@
                                     </span>
                                 </h1>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div
                         data-poster-url="https://uploads-ssl.webflow.com/60a3d5317c84d703e4c9f9b4/60aba2fbab709f38b44685ef_MDPortals Hero (1)-poster-00001.jpg"
@@ -340,7 +349,7 @@
                             <div data-w-id="8d73de97-aad4-5ade-04af-08cbca78bc76" class="ms-process__grid">
                                 <div class="ms-process__col proccess-img-wrapper">
                                     <div class="lottie">
-                                        <div class="lottie-animation-2" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="https://assets.website-files.com/630f558f2a15ca1e88a2f774/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
+                                        <div class="lottie-animation-2" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="js/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
                                         </div>
                                         <div class="text text-benefit-left">
                                             <div class="text-align-center _27">
@@ -389,7 +398,7 @@
                                 </div>
                                 <div class="ms-process__col proccess-img-wrapper">
                                     <div class="lottie">
-                                        <div class="lottie-animation-3" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="https://assets.website-files.com/630f558f2a15ca1e88a2f774/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
+                                        <div class="lottie-animation-3" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="js/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
                                         </div>
                                         <div class="text text-benefit-left">
                                             <div class="text-align-center _27">
@@ -424,7 +433,7 @@
                             </div> -->
 
                                 <div class="lottie">
-                                    <div class="lottie-animation-2" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="https://assets.website-files.com/630f558f2a15ca1e88a2f774/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
+                                    <div class="lottie-animation-2" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="js/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
                                     </div>
                                     <div class="text text-benefit-left">
                                         <div class="text-align-center _27">
@@ -452,7 +461,7 @@
                                 <img src="img/768.png" alt="Rights-img" style="width: 100%;">
                             </div> -->
                             <div class="lottie">
-                                <div class="lottie-animation-3" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="https://assets.website-files.com/630f558f2a15ca1e88a2f774/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
+                                <div class="lottie-animation-3" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="js/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
                                 </div>
                                 <div class="text text-benefit-right">
                                     <div class="text-align-center _27">
@@ -470,7 +479,7 @@
                             </div> -->
 
                                 <div class="lottie">
-                                    <div class="lottie-animation-4" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="https://assets.website-files.com/630f558f2a15ca1e88a2f774/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
+                                    <div class="lottie-animation-4" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="js/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
                                     </div>
                                     <div class="text text-benefit-left">
                                         <div class="text-align-center _27">
@@ -499,7 +508,7 @@
                             </div> -->
 
                                 <div class="lottie">
-                                    <div class="lottie-animation-5" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="https://assets.website-files.com/630f558f2a15ca1e88a2f774/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
+                                    <div class="lottie-animation-5" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="js/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
                                     </div>
                                     <div class="text text-benefit-right">
                                         <div class="text-align-center _27">
@@ -515,7 +524,7 @@
                                 <img src="img/768.png" alt="Rights-img" style="width: 100%;">
                             </div> -->
                             <div class="lottie">
-                                <div class="lottie-animation-1" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="https://assets.website-files.com/630f558f2a15ca1e88a2f774/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
+                                <div class="lottie-animation-1" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="js/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
                                 </div>
                                 <div class="text text-benefit-left">
                                     <div class="text-align-center _27">
@@ -540,7 +549,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                             <div class="lottie">
-                                <div class="lottie-animation-6" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="https://assets.website-files.com/630f558f2a15ca1e88a2f774/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
+                                <div class="lottie-animation-6" data-w-id="01cc986e-0504-a871-8356-b92a4eb980ec" data-animation-type="lottie" data-src="js/6320610a58342cef44deb962_lf30_editor_nlngkscc.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5" data-duration="0">
                                 </div>
                                 <div class="text text-benefit-right">
                                     <div class="text-align-center _27">
@@ -1097,7 +1106,7 @@
                     <img src="img/60d11b991238f9d7248ce483_60bbe94406da2b1611fa02b1_Ellipse%2032%20(1).png" alt="" class="client-glow" />
                 </div>
             </div>
-            <div data-w-id="c82fe639-813a-1665-638e-ace00eee9331" class="ms-features wf-section">
+            <div data-w-id="c82fe639-813a-1665-638e-ace00eee9331" class="ms-features wf-section" style="display: none;">
                 <div class="ms-outer-container">
                     <div class="ms-site-container">
                         <div class="ms-features__grid">

@@ -4,7 +4,26 @@
 .securechain-right-content {
     margin: 230px auto;
 }
+.dropdown-item{
+    color: #ffffff;
+}
+.ms-hero__inner {
+    width: 75%;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #0195ff;
+}
 
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  background-color: #0a0f22;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
 
 /*animation css*/
 .lottie {
@@ -109,12 +128,16 @@
     grid-auto-columns: 1fr;
     grid-column-gap: 3em;
     grid-row-gap: 16px;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
     margin-top: 2.7em;
 }
+.font-size-3-5{
+    font-size: 3.5em;
+}
+
 .pr-border {
     border: 1px solid #75e3dd;
     border-radius: 30px;
@@ -364,6 +387,12 @@ a.w-webflow-badge {
       }
 }
 @media(max-width: 425px) {
+    .ms-hero__inner {
+        width: 100%;
+    }
+    .font-size-3-5 {
+        font-size: 2em;
+    }
     .pr-features__grid{
         display: -ms-grid;
         display: grid;
