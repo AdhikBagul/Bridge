@@ -130,10 +130,11 @@
                             <img src="img/logo/SClogoHZWhite.png" loading="lazy" alt="site logo" class="header-logo" />
                         </a>
                         <nav role="navigation" class="ms-header__nav-menu w-nav-menu">
-                            <div class="ms-mobile__menu dropdown">
+                            <div class="ms-mobile__menu">
                                 <!-- <a href="/about" class="ms-header__-nav-link w-nav-link">About</a></li> -->
                                 <!-- <a href="#" class="ms-header__-nav-link w-nav-link">Features</a></li> -->
-                                  <a class="nav-link dropdown-toggle ms-header__-nav-link w-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="dropdown ms-header__-nav-link w-nav-link">
+                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Ecosystem
                                   </a>
                                   <ul class="dropdown-menu border-gradient border-gradient-purple">
@@ -142,8 +143,9 @@
                                     <li><a class="dropdown-item" href="#">Crosschain Bridge</a></li>
                                     <li><a class="dropdown-item" href="#">DEX</a></li>
                                   </ul>
-
-                                  <a class="nav-link dropdown-toggle ms-header__-nav-link w-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                </div>
+                                <div class="dropdown ms-header__-nav-link w-nav-link">
+                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Developers
                                   </a>
                                   <ul class="dropdown-menu border-gradient border-gradient-purple">
@@ -153,9 +155,9 @@
                                     <li><a class="dropdown-item" href="#">Github</a></li>
                                     
                                   </ul>
-
-
-                                  <a class="nav-link dropdown-toggle ms-header__-nav-link w-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                </div>
+                                <div class="dropdown ms-header__-nav-link w-nav-link">
+                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Legal
                                   </a>
                                   <ul class="dropdown-menu border-gradient border-gradient-purple">
@@ -164,8 +166,9 @@
                                     <li><a class="dropdown-item" href="#">SAFU</a></li>
                                     <!-- <li><a class="dropdown-item" href="#">legal Opinion</a></li> -->
                                   </ul>
-
-                                  <a class="nav-link dropdown-toggle ms-header__-nav-link w-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                </div>
+                                <div class="dropdown ms-header__-nav-link w-nav-link">
+                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Resources
                                   </a>
                                   <ul class="dropdown-menu border-gradient border-gradient-purple">
@@ -173,7 +176,7 @@
                                     <li><a class="dropdown-item" href="#">Forum</a></li>
                                     <li><a class="dropdown-item" href="#">Learn</a></li>
                                   </ul>
-
+                                </div>
 
                                 <!-- <a href="#Blog" class="ms-header__-nav-link w-nav-link">blog</a></li>
                                 <a href="/contact" class="ms-header__-nav-link last w-nav-link">Contact</a></li> -->
@@ -1514,5 +1517,10 @@
             
         // });
 
+        $('.dropdown').hover(function() {
+          $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+        }, function() {
+          $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+        }); 
     </script>
 </html>
