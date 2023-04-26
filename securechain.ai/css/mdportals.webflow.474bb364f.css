@@ -1340,7 +1340,7 @@ img {
 }
 
 .ms-footer__bottom {
-  text-align: right;
+  text-align: center;
 }
 
 .ms-blog__green-effect {
@@ -3074,7 +3074,8 @@ img {
   }
 
   .ms-features {
-    padding-top: 10.6em;
+    padding-top: 0em;
+    /* padding-top: 10.6em; */
   }
 
   .ms-client__img.home {
@@ -5763,8 +5764,8 @@ img {
   }
 
   .ms-client__logo {
-    width: 200px;
-    height: 70px;
+    width: 100%;
+    height: auto;
   }
 
   .ms-client__logo.one {
@@ -5772,12 +5773,13 @@ img {
   }
 
   .ms-client__logo.two {
-    width: 10em;
+    /* width: 10em; */
+    width: 100%;
   }
 
   .ms-client__logo.three {
-    width: 200px;
-    height: 80px;
+    width: 100%;
+    /* height: 80px; */
   }
 
   .ms-client__logo.five {

@@ -4,6 +4,16 @@
 .securechain-right-content {
     margin: 230px auto;
 }
+
+.securechain-left-content h5{
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+.securechain-right-content h5{
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
 .dropdown-item{
     color: #ffffff;
 }
@@ -12,17 +22,28 @@
 }
 .dropdown-item:focus, .dropdown-item:hover {
     color: #ffffff;
-    background-color: #0195ff;
+    /* background-color: #0195ff; */
+    background-color: #0195ff2b;
 }
-
-.border-gradient {
+.dropdown-item {
+    font-family: Roboto, sans-serif;
+}
+/* .border-gradient {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 2px;
   background-color: #0a0f22;
-}
+} */
 .border-gradient-purple {
-  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
+    padding: 6px 0;
+    box-shadow: 1px 1px 9px #000;
+    border-radius: 5px;
+    background-color: #171429;
+    font-size: 14px;
+    /* background-image: url(../img/60d11b991238f963cc8ce414_Rectangle-40.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
 }
 
 /*animation css*/
@@ -145,7 +166,8 @@
 .pr-features__icon-wrapper{
     width: 100%;
     max-width: 100%;
-    padding: 20px
+    padding: 20px;
+    min-height: 94px;
 }
 /*.text {
     left: 16%;
@@ -232,9 +254,177 @@ a.w-webflow-badge {
     opacity: 1;
     color: purple;
 }
+
+
+/* social medai css*/
+
+.eapps-social-icons .nav-item .nav-link{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    /* border-width: 2px; */
+    border-radius: 50%;
+    /* border: 2px solid #fff; */
+    /* border-color: #fff; */
+    text-align: center;
+    padding: 6px;
+    transition: all 0.1s ease;
+}
+.eapps-social-icons .nav-item .nav-link{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all 0.1s ease;
+}
+
+.eapps-social-icons-item-twitter{
+    background-color: #23abff;
+    border: 2px solid #fff;
+}
+
+.eapps-social-icons-item-twitter:hover{
+    background-color: #ffffff;
+    border: 2px solid #23abff;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.eapps-social-icons-item-twitter:hover .eapps-social-icons-item-icon * {
+    fill: #23abff;
+}
+.eapps-social-icons-item-telegram{
+    background-color: #2ca5e0;
+    border: 2px solid #fff;
+}
+.eapps-social-icons-item-telegram:hover{
+    background-color: #ffffff;
+    border: 2px solid #23abff;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.eapps-social-icons-item-telegram:hover .eapps-social-icons-item-icon * {
+    fill: #23abff;
+}
+
+.eapps-social-icons-item-facebook:hover{
+    background-color: #ffffff;
+    border: 2px solid #2ca5e0;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.eapps-social-icons-item-facebook:hover .eapps-social-icons-item-icon * {
+    fill: #2ca5e0;
+}
+
+.eapps-social-icons-item-facebook{
+    background-color: #3e68c0;
+    border: 2px solid #fff;
+}
+.eapps-social-icons-item-youtube{
+    background-color: #ee3130;
+    border: 2px solid #fff;
+}
+
+.eapps-social-icons-item-youtube:hover{
+    background-color: #ffffff;
+    border: 2px solid #ee3130;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.eapps-social-icons-item-youtube:hover .eapps-social-icons-item-icon * {
+    fill: #ee3130;
+}
+
+.eapps-social-icons-item-reddit{
+    background-color: #ff5c1f;
+    border: 2px solid #fff;
+}
+
+.eapps-social-icons-item-reddit:hover{
+    background-color: #ffffff;
+    border: 2px solid #ff5c1f;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.eapps-social-icons-item-reddit:hover .eapps-social-icons-item-icon * {
+    fill: #ff5c1f;
+}
+
+.eapps-social-icons-item-github{
+    background-color: #0c0a2d;
+    border: 2px solid #fff;
+}
+
+.eapps-social-icons-item-github:hover{
+    background-color: #ffffff;
+    border: 2px solid #0c0a2d;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.eapps-social-icons-item-github:hover .eapps-social-icons-item-icon * {
+    fill: #0c0a2d;
+}
+
+.eapps-social-icons .nav-item .nav-link span svg{
+    fill: #fff;
+}
+
+.eapps-social-icons .eapps-social-icons-item {
+    transition: all 0.3s cubic-bezier(0.2, 0.26, 0, 1.78);
+}
+.eapps-social-icons-style-classic .eapps-social-icons-item, .eapps-social-icons-style-classic .eapps-social-icons-item:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.eapps-social-icons .nav-item .eapps-social-icons-item, .eapps-social-icons-icon-color-on-hover-white .eapps-social-icons-item:hover {
+    border-color: #fff;
+}
+.eapps-social-icons-size-40 .eapps-social-icons-item {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-width: 2px;
+}
+
+.eapps-social-icons-border-radius-circle .eapps-social-icons-item, .eapps-social-icons-border-radius-circle .eapps-social-icons-item::before, .eapps-social-icons-border-radius-circle .eapps-social-icons-item::after {
+    border-radius: 50%;
+}
+
+.eapps-social-icons-item {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all 0.1s ease;
+}
+.ms-client__logo {
+    width: 100%!important;
+    height: 100%!important;
+}
 @media screen and (min-width: 1024px){
     .seventy-six-percentage {
         width: 83%;
+    }
+    .pr-features__icon-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        min-height: 75px;
+    }
+    .securechain-right-content {
+        margin: 130px auto;
+    }
+    .securechain-left-content {
+        margin: 166px auto;
     }
 }
 @media screen and (min-width: 1200px){
@@ -249,8 +439,27 @@ a.w-webflow-badge {
     .seventy-six-percentage {
         width: 77%;
     }
+    .pr-features__icon-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        min-height: 75px;
+    }
+    .securechain-right-content {
+        margin: 130px auto;
+    }
+    .securechain-left-content {
+        margin: 166px auto;
+    }
 }
 @media screen and (min-width: 1440px){
+
+    .pr-features__icon-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        min-height: 94px;
+    }
     /*.text {
         left: 16%;
         top: -1%;
@@ -266,12 +475,23 @@ a.w-webflow-badge {
         top: -1%;
     }
     .securechain-right-content {
-        margin: 190px auto;
+        margin: 140px auto;
+    }
+    .securechain-left-content {
+        margin: 166px auto;
     }
 }
 
 
 @media(max-width: 992px) {
+    .securechain-left-content h5{
+        margin-bottom: 30px;
+        font-size: 26px;
+    }
+    .securechain-right-content h5{
+        margin-bottom: 30px;
+        font-size: 26px;
+    }
     .securechain-right-content {
         margin: 50px auto;
     }
