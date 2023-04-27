@@ -674,6 +674,14 @@ a.w-webflow-badge {
     }
 }
 @media(max-width: 768px) {
+    .securechain-left-content h5{
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+    .securechain-right-content h5{
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
     #services {
         padding-bottom: 0px!important;
     }

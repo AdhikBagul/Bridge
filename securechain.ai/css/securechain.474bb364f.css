@@ -3685,7 +3685,7 @@ img {
   .ms-header {
     padding-top: 1em;
     padding-bottom: 1em;
-    background-color: #0c091b;
+    background-color: #0c091b!important;
   }
 
   .ms-header__wrapper {
