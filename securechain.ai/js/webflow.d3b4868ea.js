@@ -36631,22 +36631,22 @@ Webflow.define('navbar', module.exports = function ($, _) {
     });
   }
 
-  function navigate(data) {
-    return function (evt) {
-      var link = $(this);
-      var href = link.attr('href'); 
+  // function navigate(data) {
+  //   return function (evt) {
+  //     var link = $(this);
+  //     var href = link.attr('href'); 
 
-      if (!Webflow.validClick(evt.currentTarget)) {
-        evt.preventDefault();
-        return;
-      } 
+  //     if (!Webflow.validClick(evt.currentTarget)) {
+  //       evt.preventDefault();
+  //       return;
+  //     } 
 
 
-      if (href && href.indexOf('#') === 0 && data.open) {
-        close(data);
-      }
-    };
-  }
+  //     if (href && href.indexOf('#') === 0 && data.open) {
+  //       close(data);
+  //     }
+  //   };
+  // }
 
   function outside(data) {
     // Unbind previous click handler if it exists
