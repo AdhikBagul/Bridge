@@ -621,6 +621,9 @@ a.w-webflow-badge {
 
 
 @media(max-width: 992px) {
+    .font-size-3-5 {
+        font-size: 2.5em;
+    }
     .securechain-left-content h5{
         margin-bottom: 30px;
         font-size: 26px;
