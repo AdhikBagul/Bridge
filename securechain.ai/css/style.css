@@ -310,7 +310,7 @@ font-size:45px;}
 }
 .card-seervices {
     margin-bottom: 20px;
-    min-height: 460px;
+    min-height: 350px;
     text-align: left;
     background-color: transparent;
     background-image: radial-gradient(at top right, #00E1FF24 0%, #161328 50%);
