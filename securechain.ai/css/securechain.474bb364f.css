@@ -5106,9 +5106,9 @@ img {
     grid-column-gap: 10px;
   }
 
-  .ms-client__logo {
+  /*.ms-client__logo {
     height: 100px;
-  }
+  }*/
 
   .ms-client__logo.two {
     width: 10em;
@@ -5785,7 +5785,7 @@ img {
   }
 
   .ms-client__logo.five {
-    height: 100px;
+/*    height: 100px;*/
   }
 
   .ms-client__logo.optum {

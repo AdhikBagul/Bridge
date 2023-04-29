@@ -545,7 +545,7 @@ a.w-webflow-badge {
 }
 .ms-client__logo {
     width: 100%!important;
-    height: 100%!important;
+/*    height: 100%!important;*/
 }
 @media screen and (min-width: 1024px){
     .seventy-six-percentage {
